@@ -1,0 +1,9 @@
+@startuml
+
+class Estudiante{
+    -nombre : String
+    -documento : int
+    -email : String
+
+    +inscribir(Curso c) : Curso[]
+    }
